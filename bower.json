@@ -1,0 +1,25 @@
+{
+  "name": "flexy",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nicksheffield/Flexy",
+  "authors": [
+    "Nick Sheffield <numbereft@gmail.com>"
+  ],
+  "description": "A declarative flexbox framework",
+  "main": "flexy.css",
+  "keywords": [
+    "css",
+    "flexbox",
+    "framework",
+    "layout",
+    "polymer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
