@@ -22,7 +22,7 @@ Flexy works by using custom HTML Attributes in css. Prefixing the custom attribu
 
 Flexy is invoked with four different html attributes, each has various different values based on the flexbox syntax.
 
-```markup
+```html
 
 <div layout="row" justify="between" align="center">
     <h1>My Website Title</h1>
@@ -48,7 +48,7 @@ It also controls `flex-direction` via the `row`, `col`, and `full-col` values.
 
 The justify attribute is used to set the `justify-content` property.
 
-Standard values are used, such as `start`, `end`, and `center`. Except for `space-between` and `space-around` which are now called `between` and `around` respectively.
+Supported values are `start`, `end`, `center`, `around` and `between`
 
 
 #### Align
@@ -76,7 +76,7 @@ You can prefix each value to control how that property behaves at a given breakp
 
 eg.
 
-```markup
+```html
 
 <div layout="row sm-full-col md-row xl-col"></div>
 
