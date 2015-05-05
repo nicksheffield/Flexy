@@ -101,7 +101,7 @@
 	[ratio~="xl-4"],         [data-ratio~="xl-4"]         { flex: 4; }
 	[ratio~="xl-5"],         [data-ratio~="xl-5"]         { flex: 5; }
 	[ratio~="xl-6"],         [data-ratio~="xl-6"]         { flex: 6; }
-}`
+}
 
 
 /*

@@ -30,6 +30,23 @@ Flexy is invoked with four different html attributes, each has various different
 
 ```
 
+Or as data attributes
+
+```html
+
+<div data-layout="row" data-justify="between" data-align="center">
+    <h1>My Website Title</h1>
+    <nav>
+        <ul data-layout="row">
+            <li data-ratio="1">Home</li>
+            <li data-ratio="1">About</li>
+            <li data-ratio="2">Contact</li>
+        </ul>
+    </nav>
+</div>
+
+```
+
 #### Layout
 
 The layout attribute adds the `display: flex` property.
