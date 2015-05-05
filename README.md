@@ -10,6 +10,10 @@ Inspired by Polymer's [Layout Attributes](https://www.polymer-project.org/0.5/do
 bower install flexy
 ```
 
+```html
+<link rel="stylesheet" href="bower_components/flexy/flexy.min.css">
+```
+
 
 ## How to use
 
