@@ -10,13 +10,6 @@ Inspired by Polymer's [Layout Attributes](https://www.polymer-project.org/0.5/do
 bower install flexy
 ```
 
-### Include
-
-Flexy works by using custom HTML Attributes in css. Prefixing the custom attributes with `data-` makes your HTML valid.
-
-* Without: `flexy.invalid.min.css` ~3kb
-* With: `flexy.min.css` ~5kb
-
 
 ## How to use
 
