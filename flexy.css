@@ -9,7 +9,7 @@
 [justify~="around"],  [data-justify~="around"]  { justify-content: space-around; }
 [align~="start"],     [data-align~="start"]     { align-items: flex-start; }
 [align~="end"],       [data-align~="end"]       { align-items: flex-end; }
-[align~="center"],    [data-align~="center"]    { align-items: center; }
+[align~="center"],    [data-align~="center"]    { align-items: center; text-align: initial; }
 [align~="stretch"],   [data-align~="stretch"]   { align-items: stretch; }
 [ratio], [data-ratio],
 [ratio~="1"],         [data-ratio~="1"]         { flex: 1; }
@@ -30,7 +30,7 @@
 	[justify~="sm-around"],  [data-justify~="sm-around"]  { justify-content: space-around; }
 	[align~="sm-start"],     [data-align~="sm-start"]     { align-items: flex-start; }
 	[align~="sm-end"],       [data-align~="sm-end"]       { align-items: flex-end; }
-	[align~="sm-center"],    [data-align~="sm-center"]    { align-items: center; }
+	[align~="sm-center"],    [data-align~="sm-center"]    { align-items: center; text-align: initial; }
 	[align~="sm-stretch"],   [data-align~="sm-stretch"]   { align-items: stretch; }
 	[ratio~="sm-1"],         [data-ratio~="sm-1"]         { flex: 1; }
 	[ratio~="sm-2"],         [data-ratio~="sm-2"]         { flex: 2; }
@@ -51,7 +51,7 @@
 	[justify~="md-around"],  [data-justify~="md-around"]  { justify-content: space-around; }
 	[align~="md-start"],     [data-align~="md-start"]     { align-items: flex-start; }
 	[align~="md-end"],       [data-align~="md-end"]       { align-items: flex-end; }
-	[align~="md-center"],    [data-align~="md-center"]    { align-items: center; }
+	[align~="md-center"],    [data-align~="md-center"]    { align-items: center; text-align: initial; }
 	[align~="md-stretch"],   [data-align~="md-stretch"]   { align-items: stretch; }
 	[ratio~="md-1"],         [data-ratio~="md-1"]         { flex: 1; }
 	[ratio~="md-2"],         [data-ratio~="md-2"]         { flex: 2; }
@@ -72,7 +72,7 @@
 	[justify~="lg-around"],  [data-justify~="lg-around"]  { justify-content: space-around; }
 	[align~="lg-start"],     [data-align~="lg-start"]     { align-items: flex-start; }
 	[align~="lg-end"],       [data-align~="lg-end"]       { align-items: flex-end; }
-	[align~="lg-center"],    [data-align~="lg-center"]    { align-items: center; }
+	[align~="lg-center"],    [data-align~="lg-center"]    { align-items: center; text-align: initial; }
 	[align~="lg-stretch"],   [data-align~="lg-stretch"]   { align-items: stretch; }
 	[ratio~="lg-1"],         [data-ratio~="lg-1"]         { flex: 1; }
 	[ratio~="lg-2"],         [data-ratio~="lg-2"]         { flex: 2; }
@@ -93,7 +93,7 @@
 	[justify~="xl-around"],  [data-justify~="xl-around"]  { justify-content: space-around; }
 	[align~="xl-start"],     [data-align~="xl-start"]     { align-items: flex-start; }
 	[align~="xl-end"],       [data-align~="xl-end"]       { align-items: flex-end; }
-	[align~="xl-center"],    [data-align~="xl-center"]    { align-items: center; }
+	[align~="xl-center"],    [data-align~="xl-center"]    { align-items: center; text-align: initial; }
 	[align~="xl-stretch"],   [data-align~="xl-stretch"]   { align-items: stretch; }
 	[ratio~="xl-1"],         [data-ratio~="xl-1"]         { flex: 1; }
 	[ratio~="xl-2"],         [data-ratio~="xl-2"]         { flex: 2; }
