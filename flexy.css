@@ -3,7 +3,7 @@
 [layout~="col"],      [data-layout~="col"]      { flex-direction: column; }
 [layout~="full-col"], [data-layout~="full-col"] { flex-direction: column; min-height: 100vh; }
 [justify~="start"],   [data-justify~="start"]   { justify-content: flex-start; }
-[justify~="end"],     [data-justify~="end"]     { justify-content: flex-start; }
+[justify~="end"],     [data-justify~="end"]     { justify-content: flex-end; }
 [justify~="center"],  [data-justify~="center"]  { justify-content: center; }
 [justify~="between"], [data-justify~="between"] { justify-content: space-between; }
 [justify~="around"],  [data-justify~="around"]  { justify-content: space-around; }
@@ -24,7 +24,7 @@
 	[layout~="sm-col"],      [data-layout~="sm-col"]      { flex-direction: column; }
 	[layout~="sm-full-col"], [data-layout~="sm-full-col"] { flex-direction: column; min-height: 100vh; }
 	[justify~="sm-start"],   [data-justify~="sm-start"]   { justify-content: flex-start; }
-	[justify~="sm-end"],     [data-justify~="sm-end"]     { justify-content: flex-start; }
+	[justify~="sm-end"],     [data-justify~="sm-end"]     { justify-content: flex-end; }
 	[justify~="sm-center"],  [data-justify~="sm-center"]  { justify-content: center; }
 	[justify~="sm-between"], [data-justify~="sm-between"] { justify-content: space-between; }
 	[justify~="sm-around"],  [data-justify~="sm-around"]  { justify-content: space-around; }
@@ -45,7 +45,7 @@
 	[layout~="md-col"],      [data-layout~="md-col"]      { flex-direction: column; }
 	[layout~="md-full-col"], [data-layout~="md-full-col"] { flex-direction: column; min-height: 100vh; }
 	[justify~="md-start"],   [data-justify~="md-start"]   { justify-content: flex-start; }
-	[justify~="md-end"],     [data-justify~="md-end"]     { justify-content: flex-start; }
+	[justify~="md-end"],     [data-justify~="md-end"]     { justify-content: flex-end; }
 	[justify~="md-center"],  [data-justify~="md-center"]  { justify-content: center; }
 	[justify~="md-between"], [data-justify~="md-between"] { justify-content: space-between; }
 	[justify~="md-around"],  [data-justify~="md-around"]  { justify-content: space-around; }
@@ -66,7 +66,7 @@
 	[layout~="lg-col"],      [data-layout~="lg-col"]      { flex-direction: column; }
 	[layout~="lg-full-col"], [data-layout~="lg-full-col"] { flex-direction: column; min-height: 100vh; }
 	[justify~="lg-start"],   [data-justify~="lg-start"]   { justify-content: flex-start; }
-	[justify~="lg-end"],     [data-justify~="lg-end"]     { justify-content: flex-start; }
+	[justify~="lg-end"],     [data-justify~="lg-end"]     { justify-content: flex-end; }
 	[justify~="lg-center"],  [data-justify~="lg-center"]  { justify-content: center; }
 	[justify~="lg-between"], [data-justify~="lg-between"] { justify-content: space-between; }
 	[justify~="lg-around"],  [data-justify~="lg-around"]  { justify-content: space-around; }
@@ -87,7 +87,7 @@
 	[layout~="xl-col"],      [data-layout~="xl-col"]      { flex-direction: column; }
 	[layout~="xl-full-col"], [data-layout~="xl-full-col"] { flex-direction: column; min-height: 100vh; }
 	[justify~="xl-start"],   [data-justify~="xl-start"]   { justify-content: flex-start; }
-	[justify~="xl-end"],     [data-justify~="xl-end"]     { justify-content: flex-start; }
+	[justify~="xl-end"],     [data-justify~="xl-end"]     { justify-content: flex-end; }
 	[justify~="xl-center"],  [data-justify~="xl-center"]  { justify-content: center; }
 	[justify~="xl-between"], [data-justify~="xl-between"] { justify-content: space-between; }
 	[justify~="xl-around"],  [data-justify~="xl-around"]  { justify-content: space-around; }
