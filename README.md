@@ -77,6 +77,13 @@ Supported values are `start`, `end`, `center` and `stretch`.
 The ratio property is used to control the `flex` property. It has values from 1 to 6.
 
 
+#### Wrap
+
+The wrap property is used to turn flex-wrap on depending on the current breakpoint.
+
+Supported values are `all`, `sm`, `md`, `lg` and `xl`. Any combination can be used, eg. `wrap="sm md"`
+
+
 ## Responsive
 
 To add responsive rules, there are four built in breakpoints.
