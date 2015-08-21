@@ -1,0 +1,117 @@
+[layout],             [data-layout]             { display: flex; }
+[layout~="row"],      [data-layout~="row"]      { flex-direction: row; }
+[layout~="col"],      [data-layout~="col"]      { flex-direction: column; }
+[layout~="full-col"], [data-layout~="full-col"] { flex-direction: column; min-height: 100vh; }
+[justify~="start"],   [data-justify~="start"]   { justify-content: flex-start; }
+[justify~="end"],     [data-justify~="end"]     { justify-content: flex-end; }
+[justify~="center"],  [data-justify~="center"]  { justify-content: center; }
+[justify~="between"], [data-justify~="between"] { justify-content: space-between; }
+[justify~="around"],  [data-justify~="around"]  { justify-content: space-around; }
+[align~="start"],     [data-align~="start"]     { align-items: flex-start; }
+[align~="end"],       [data-align~="end"]       { align-items: flex-end; }
+[align~="center"],    [data-align~="center"]    { align-items: center; text-align: initial; }
+[align~="stretch"],   [data-align~="stretch"]   { align-items: stretch; }
+[wrap~="all"],        [data-wrap~="all"]        { flex-wrap: wrap; }
+[ratio], [data-ratio],
+[ratio~="1"],         [data-ratio~="1"]         { flex: 1; }
+[ratio~="2"],         [data-ratio~="2"]         { flex: 2; }
+[ratio~="3"],         [data-ratio~="3"]         { flex: 3; }
+[ratio~="4"],         [data-ratio~="4"]         { flex: 4; }
+[ratio~="5"],         [data-ratio~="5"]         { flex: 5; }
+[ratio~="6"],         [data-ratio~="6"]         { flex: 6; }
+
+@media screen and (max-width: 40em){
+	[layout~="sm-row"],      [data-layout~="sm-row"]      { flex-direction: row; }
+	[layout~="sm-col"],      [data-layout~="sm-col"]      { flex-direction: column; }
+	[layout~="sm-full-col"], [data-layout~="sm-full-col"] { flex-direction: column; min-height: 100vh; }
+	[justify~="sm-start"],   [data-justify~="sm-start"]   { justify-content: flex-start; }
+	[justify~="sm-end"],     [data-justify~="sm-end"]     { justify-content: flex-end; }
+	[justify~="sm-center"],  [data-justify~="sm-center"]  { justify-content: center; }
+	[justify~="sm-between"], [data-justify~="sm-between"] { justify-content: space-between; }
+	[justify~="sm-around"],  [data-justify~="sm-around"]  { justify-content: space-around; }
+	[align~="sm-start"],     [data-align~="sm-start"]     { align-items: flex-start; }
+	[align~="sm-end"],       [data-align~="sm-end"]       { align-items: flex-end; }
+	[align~="sm-center"],    [data-align~="sm-center"]    { align-items: center; text-align: initial; }
+	[align~="sm-stretch"],   [data-align~="sm-stretch"]   { align-items: stretch; }
+	[wrap~="sm"],            [data-wrap~="sm"]            { flex-wrap: wrap; }
+	[ratio~="sm-1"],         [data-ratio~="sm-1"]         { flex: 1; }
+	[ratio~="sm-2"],         [data-ratio~="sm-2"]         { flex: 2; }
+	[ratio~="sm-3"],         [data-ratio~="sm-3"]         { flex: 3; }
+	[ratio~="sm-4"],         [data-ratio~="sm-4"]         { flex: 4; }
+	[ratio~="sm-5"],         [data-ratio~="sm-5"]         { flex: 5; }
+	[ratio~="sm-6"],         [data-ratio~="sm-6"]         { flex: 6; }
+}
+
+@media screen and (max-width: 64em) and (min-width: 40em){
+	[layout~="md-row"],      [data-layout~="md-row"]      { flex-direction: row; }
+	[layout~="md-col"],      [data-layout~="md-col"]      { flex-direction: column; }
+	[layout~="md-full-col"], [data-layout~="md-full-col"] { flex-direction: column; min-height: 100vh; }
+	[justify~="md-start"],   [data-justify~="md-start"]   { justify-content: flex-start; }
+	[justify~="md-end"],     [data-justify~="md-end"]     { justify-content: flex-end; }
+	[justify~="md-center"],  [data-justify~="md-center"]  { justify-content: center; }
+	[justify~="md-between"], [data-justify~="md-between"] { justify-content: space-between; }
+	[justify~="md-around"],  [data-justify~="md-around"]  { justify-content: space-around; }
+	[align~="md-start"],     [data-align~="md-start"]     { align-items: flex-start; }
+	[align~="md-end"],       [data-align~="md-end"]       { align-items: flex-end; }
+	[align~="md-center"],    [data-align~="md-center"]    { align-items: center; text-align: initial; }
+	[align~="md-stretch"],   [data-align~="md-stretch"]   { align-items: stretch; }
+	[wrap~="md"],            [data-wrap~="md"]            { flex-wrap: wrap; }
+	[ratio~="md-1"],         [data-ratio~="md-1"]         { flex: 1; }
+	[ratio~="md-2"],         [data-ratio~="md-2"]         { flex: 2; }
+	[ratio~="md-3"],         [data-ratio~="md-3"]         { flex: 3; }
+	[ratio~="md-4"],         [data-ratio~="md-4"]         { flex: 4; }
+	[ratio~="md-5"],         [data-ratio~="md-5"]         { flex: 5; }
+	[ratio~="md-6"],         [data-ratio~="md-6"]         { flex: 6; }
+}
+
+@media screen and (max-width: 90em) and (min-width: 64em){
+	[layout~="lg-row"],      [data-layout~="lg-row"]      { flex-direction: row; }
+	[layout~="lg-col"],      [data-layout~="lg-col"]      { flex-direction: column; }
+	[layout~="lg-full-col"], [data-layout~="lg-full-col"] { flex-direction: column; min-height: 100vh; }
+	[justify~="lg-start"],   [data-justify~="lg-start"]   { justify-content: flex-start; }
+	[justify~="lg-end"],     [data-justify~="lg-end"]     { justify-content: flex-end; }
+	[justify~="lg-center"],  [data-justify~="lg-center"]  { justify-content: center; }
+	[justify~="lg-between"], [data-justify~="lg-between"] { justify-content: space-between; }
+	[justify~="lg-around"],  [data-justify~="lg-around"]  { justify-content: space-around; }
+	[align~="lg-start"],     [data-align~="lg-start"]     { align-items: flex-start; }
+	[align~="lg-end"],       [data-align~="lg-end"]       { align-items: flex-end; }
+	[align~="lg-center"],    [data-align~="lg-center"]    { align-items: center; text-align: initial; }
+	[align~="lg-stretch"],   [data-align~="lg-stretch"]   { align-items: stretch; }
+	[wrap~="lg"],            [data-wrap~="lg"]            { flex-wrap: wrap; }
+	[ratio~="lg-1"],         [data-ratio~="lg-1"]         { flex: 1; }
+	[ratio~="lg-2"],         [data-ratio~="lg-2"]         { flex: 2; }
+	[ratio~="lg-3"],         [data-ratio~="lg-3"]         { flex: 3; }
+	[ratio~="lg-4"],         [data-ratio~="lg-4"]         { flex: 4; }
+	[ratio~="lg-5"],         [data-ratio~="lg-5"]         { flex: 5; }
+	[ratio~="lg-6"],         [data-ratio~="lg-6"]         { flex: 6; }
+}
+
+@media screen and (min-width: 90em){
+	[layout~="xl-row"],      [data-layout~="xl-row"]      { flex-direction: row; }
+	[layout~="xl-col"],      [data-layout~="xl-col"]      { flex-direction: column; }
+	[layout~="xl-full-col"], [data-layout~="xl-full-col"] { flex-direction: column; min-height: 100vh; }
+	[justify~="xl-start"],   [data-justify~="xl-start"]   { justify-content: flex-start; }
+	[justify~="xl-end"],     [data-justify~="xl-end"]     { justify-content: flex-end; }
+	[justify~="xl-center"],  [data-justify~="xl-center"]  { justify-content: center; }
+	[justify~="xl-between"], [data-justify~="xl-between"] { justify-content: space-between; }
+	[justify~="xl-around"],  [data-justify~="xl-around"]  { justify-content: space-around; }
+	[align~="xl-start"],     [data-align~="xl-start"]     { align-items: flex-start; }
+	[align~="xl-end"],       [data-align~="xl-end"]       { align-items: flex-end; }
+	[align~="xl-center"],    [data-align~="xl-center"]    { align-items: center; text-align: initial; }
+	[align~="xl-stretch"],   [data-align~="xl-stretch"]   { align-items: stretch; }
+	[wrap~="xl"],            [data-wrap~="xl"]            { flex-wrap: wrap; }
+	[ratio~="xl-1"],         [data-ratio~="xl-1"]         { flex: 1; }
+	[ratio~="xl-2"],         [data-ratio~="xl-2"]         { flex: 2; }
+	[ratio~="xl-3"],         [data-ratio~="xl-3"]         { flex: 3; }
+	[ratio~="xl-4"],         [data-ratio~="xl-4"]         { flex: 4; }
+	[ratio~="xl-5"],         [data-ratio~="xl-5"]         { flex: 5; }
+	[ratio~="xl-6"],         [data-ratio~="xl-6"]         { flex: 6; }
+}
+
+
+/*
+	If you don't care about invalid html selectors, then you can remove all
+	data attribute selectors. Find and replace with a blank string by using this regex:
+
+	\,[\s]{1,}\[data\-[a-z\d\-\~\=\"]{1,}\]
+*/
